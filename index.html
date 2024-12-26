@@ -11,21 +11,29 @@
   </head>
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Click The Button</h1>
+      <div class="container1">
+        <div class="score">
+          <h3>player 2 score</h3>
+          <p class="score" id="scoreOne"></p>
+        </div>
+        <div class="dice">
+          <p>Player 1</p>
+          <img class="img1" src="./images/dice6.png" />
+        </div>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="./images/dice6.png" />
+        <div class="dice">
+          <p>Player 2</p>
+          <img class="img2" src="./images/dice6.png" />
+        </div>
+        <div class="score">
+          <h3>player 1 Score</h3>
+          <p class="score" id="scoreTwo"></p>
+        </div>
       </div>
-
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="./images/dice6.png" />
-      </div>
+      <button id="btn" onclick="start()">Click ME</button>
     </div>
-
     <footer>🎲 Made with ❤️ by Body 🎲</footer>
     <script src="index.js"></script>
   </body>
-  
 </html>
